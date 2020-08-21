@@ -30,14 +30,14 @@ let library = {
     return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1);
   },
 
-
+  /* No.1 */
   printAllSongNames: function() {
     //No1. print the names of all the songs to the console
     Object.keys(library.songs).forEach(function(elm){
       console.log(library.songs[elm].name);
     });
   },
-
+  /* No.2 */
   printSongName: function(songID) {
     //No2. print the name of a song when given its ID
     Object.keys(library.songs).forEach(function(elm){
@@ -46,7 +46,7 @@ let library = {
       }
     });
   },
-
+  /* No.3 */
   printPlaylistName: function(playlistID) {
     //No3. Print the name of a playlist when given its ID 
     Object.keys(library.playlists).forEach(function(elm){
@@ -56,9 +56,9 @@ let library = {
     });
 
   },
-
+  /* No.4 */
   printAllPlaylistNames: function() {
-    //No4, Print the nmaes of all the playlists 
+    // Print the nmaes of all the playlists 
     Object.keys(library.playlists).forEach(function(elm){
         console.log(library.playlists[elm].name);
       
@@ -177,12 +177,16 @@ let library = {
 
 
 /**************** Start  ********************/ 
+/* No.1 */
 // library.printAllSongNames();
 
+/* No.2 */
 // library.printSongName("s02");
 
+/* No.3 */
 // library.printPlaylistName("p02");
 
+/* No.4 */
 // library.printAllPlaylistNames();
 
 /* No.5 */
