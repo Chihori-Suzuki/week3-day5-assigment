@@ -136,7 +136,7 @@ let library = {
     console.log(library.playlists);
 
   },
-
+  /* No.8 */
   addPlaylist: function(name, arrOfSongs) {
     // add a new playlist to the playlist object. it will be
     // containing a randomly generated id, a name, and an array of songs to be added to the playlist 
